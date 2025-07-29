@@ -1,0 +1,33 @@
+:root {
+  /* Japanese Traditional Colors */
+  /**
+    --shikkoku: #101820;    
+    --geppaku: #DDDDDD;    
+    --akane-iro: #BE1E2D;  
+    --ai-iro: #005F86;      
+    --tetsukon: #003F5E;   
+    */
+
+  --shinku: #ad0013; /* Deep crimson red */
+  --kincha: #a67d43; /* Golden brown tea */
+  --kuro: #121312;
+}
+
+/* Animation for the warning alert button */
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-shimmer {
+  background-size: 200% 200%;
+  animation: shimmer 2s ease infinite;
+}
+
