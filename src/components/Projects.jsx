@@ -60,9 +60,22 @@ const ProjectShowcase = () => {
       tags: ["react", "typescript", "tailwind css", 'rest api', 'Laravel' , 'web socket' , 'next js ' , 'mysql' , 'firebase' ],
       links: {
         github: "https://github.com/samsouta",
-        demo: "https://j-chaw.netlify.app/home",
+        demo: "https://zakari.site",
       },
-      image: 'https://ik.imagekit.io/deceuior6/PHOTO/zakari.jpg?updatedAt=1753780391225',
+      image: 'https://ik.imagekit.io/deceuior6/PHOTO/Untitled%20design%20(2).png?updatedAt=1757305054706',
+      featured: false,
+      alert: true
+    },
+    {
+      title: "SearchKid",
+      description:
+        "SearchKid is a web platform that makes finding movies, anime, and other content quick, easy, and convenient. Users can search for their favorite titles and get instant results, including links from Telegram channels, without wasting time browsing multiple sites. Built as a full-stack developer project, I handled both frontend and backend development, creating a seamless and user-friendly experience. The website is now live and fully functional, ready for users to explore and enjoy. ",
+      tags: ["React", "TypeScript", "Next.js", "Tailwind CSS", "Docker", "Laravel", "Python", "PostgreSQL" , "node js" , "shell" , "express"],
+      links: {
+        github: "https://github.com/samsouta",
+        demo: "https://searchkid.zakari.site",
+      },
+      image: 'https://ik.imagekit.io/deceuior6/PHOTO/color%20pop.png?updatedAt=1757301805051',
       featured: false,
       alert: true
     },
@@ -119,7 +132,7 @@ const ProjectShowcase = () => {
       alert: false
     },
     {
-      title: "BLue TV - High-Traffic Video Streaming Service",
+      title: "Video Streaming Service",
       description:
         "This video streaming platform offers both free and premium membership options, with premium users enjoying 4K streaming for the highest quality viewing experience. Payments are flexible, supporting PayPal, credit/debit cards, and a redeemable premium code system for easy access to exclusive content. Designed to handle high traffic on a daily basis, the platform ensures smooth streaming and reliability, making it the perfect solution for users who want seamless access to a wide range of content with premium quality.",
       tags: ["react", "Typescript", "Tailwind css", 'REST API', 'Laravel', 'MYSQL'],
@@ -127,9 +140,22 @@ const ProjectShowcase = () => {
         github: "https://github.com/samsouta",
         demo: "https://tvblue.netlify.app/",
       },
-      image: 'https://ik.imagekit.io/deceuior6/PHOTO/b3364fd53edaf06351e00f0cf2297a0f.jpg?updatedAt=1753781590272',
+      image: 'https://ik.imagekit.io/deceuior6/PHOTO/Revamped%20Video%20Streaming%20Homepage.jpeg?updatedAt=1757492390000',
       featured: false,
       alert: true
+    },
+    {
+      title: "Travel Booking System UI",
+      description:
+        "Travel O Friend is a modern travel website focused on providing a beautiful, user-friendly UI and smooth UX for users to explore, plan, and book their dream vacations. The interface is designed with simplicity and comfort in mind, making it easy for anyone to search for vacation destinations, travel packages, and agents all in one place.The UI is clean, responsive, and visually appealing across all devices — desktop, tablet, and mobile. Users can browse destinations, view travel deals, and book trips easily through a clear and organized layout. The UX emphasizes convenience, fast navigation, and intuitive design to ensure a pleasant experience from start to finish.",
+      tags: ["Next.js", "Typescript", "Tailwind css", "framer motion"],
+      links: {
+        github: "https://github.com/travel-o-friend",
+        demo: "https://travel-o-friend.vercel.app/",
+      },
+      image: 'https://ik.imagekit.io/deceuior6/Travel%20O%20friend/547221615_122103681567006930_6320203610371165389_n.jpg?updatedAt=1760500025999',
+      featured: true,
+      alert: false
     },
   ];
 
