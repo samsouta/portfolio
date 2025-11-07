@@ -188,29 +188,7 @@ const SkillsSection = () => {
         { name: "Vite", icon: <SiVite className="w-4 h-4 text-[#646CFF]" /> },
       ],
     },
-    {
-      icon: Paintbrush,
-      title: "Creative Skills",
-      color: "text-yellow-400",
-      skills: [
-        {
-          name: "UI Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF4081]" />,
-        },
-        {
-          name: "SVG Animation",
-          icon: <MdAnimation className="w-4 h-4 text-[#00C853]" />,
-        },
-        {
-          name: "3D Modeling",
-          icon: <Cpu className="w-4 h-4 text-[#7C4DFF]" />,
-        },
-        {
-          name: "Motion Graphics",
-          icon: <MdAnimation className="w-4 h-4 text-[#FF6D00]" />,
-        },
-      ],
-    },
+    
   ];
 
   return (
@@ -218,9 +196,9 @@ const SkillsSection = () => {
       className="pt-15 lg:pt-0 bg-[#121312]
  text-white min-h-screen"
     >
-      <section className="container mx-auto px-4 py-11">
+      <section className="container mx-auto px-4 py-36">
         <div className="flex justify-center items-center ">
-          <IconCloudDemo />
+          {/* <IconCloudDemo /> */}
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (

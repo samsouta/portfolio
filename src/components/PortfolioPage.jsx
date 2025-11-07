@@ -1,5 +1,4 @@
 import React from "react";
-import profileImage from "../assets/images/profile.png";
 
 const AboutMe = () => {
   return (
@@ -17,7 +16,7 @@ const AboutMe = () => {
         </div>
         <div className="image-container">
           <img
-            src={profileImage}
+            src='https://ik.imagekit.io/deceuior6/Me/555744101_1100000869003088_5852038340125331951_n.jpg?updatedAt=1762486849099'
             alt="Profile"
             className="w-80 h-80 rounded-lg object-cover shadow-lg"
           />

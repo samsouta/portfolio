@@ -50,9 +50,9 @@ const AnimatedGrid = () => {
 export default function Hero() {
   const words = [
     "Full-Stack Developer ",
-    "JavaScript Developer & PHP Developer",
+    "Developer & Problem Solver",
     "Learning MARN Stack",
-    "Linux & GitHub for DevOps Enthusiast",
+    "DevOps Enthusiast",
   ];
 
   const [code] = useState(`
@@ -61,8 +61,10 @@ const profile = {
     title: 'Full-Stack Developer | Problem Solver',
     skills: [
         'React', 'NextJS', 'Redux', 'Express',
+        'NodeJS', 'PostgreSQL','Redis','JavaScript'
         'MySQL', 'Docker', 'AWS', 'TypeScript',
-        'GraphQL', 'Git', 'Linux', 'PHP','laravel'
+        'GraphQL', 'Git', 'Linux', 'PHP','laravel' ,
+        'Nginx'
     ],
     hardWorker: true,
     quickLearner: true,
@@ -146,7 +148,7 @@ const profile = {
               {/* Description */}
               <div className="relative mb-8 sm:mb-12 max-w-xl">
                 <p className="text-base sm:text-xl text-gray-300/90 leading-relaxed">
-                  JavaScript lover 🚀 | coding the future 💻✨
+                   The Balanced Architect
                 </p>
               </div>
 
