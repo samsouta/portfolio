@@ -1,8 +1,10 @@
 @import "tailwindcss";
+@import "../style/color.css";
+@import "../style/landing.css";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--bone);
+  --foreground: var(--cafe-noir);
 }
 
 @theme inline {
@@ -14,9 +16,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--kombu-green);
+    --foreground: var(--bone);
   }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
 body {
