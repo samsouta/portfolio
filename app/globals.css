@@ -1,24 +1,18 @@
 @import "tailwindcss";
 @import "../style/color.css";
 @import "../style/landing.css";
+@import "../style/card.css";
 
 :root {
   --background: var(--bone);
   --foreground: var(--cafe-noir);
+  --background-image: url("/imgs/light/bg1.png");
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: var(--kombu-green);
-    --foreground: var(--bone);
-  }
+html[data-theme="dark"] {
+  --background: var(--kombu-green);
+  --foreground: var(--bone);
+  --background-image: url("/imgs/dark/bg1.png");
 }
 
 html,
@@ -29,7 +23,64 @@ body {
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
+  background-image: var(--background-image);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  transition:
+    background-color 240ms ease,
+    color 240ms ease;
+}
+
+.theme-toggle {
+  position: fixed;
+  top: 24px;
+  right: 24px;
+  z-index: 10;
+  display: inline-flex;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid color-mix(in srgb, var(--foreground) 18%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--background) 74%, transparent);
+  box-shadow: 0 16px 34px color-mix(in srgb, var(--foreground) 14%, transparent);
+  backdrop-filter: blur(18px) saturate(1.2);
+  -webkit-backdrop-filter: blur(18px) saturate(1.2);
+}
+
+.theme-toggle__button {
+  min-width: 68px;
+  min-height: 36px;
+  border: 0;
+  border-radius: 999px;
+  padding: 8px 14px;
+  color: var(--foreground);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0;
+  transition:
+    background-color 180ms ease,
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.theme-toggle__button:hover {
+  transform: translateY(-1px);
+}
+
+.theme-toggle__button[aria-pressed="true"] {
+  color: var(--background);
+  background: var(--foreground);
+}
+
+.theme-toggle__button:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--foreground) 40%, transparent);
+  outline-offset: 2px;
 }

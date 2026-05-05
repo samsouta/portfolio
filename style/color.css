@@ -1,7 +1,17 @@
 :root {
-  --cafe-noir: #4C3D19;
-  --kombu-green: #354024;
-  --moss-green: #889063;
-  --tan: #CFBB99;
-  --bone: #E5D7C4;
+  --sky-blue: #3B7AC3;
+  --cloud-yellow: #F2D06B;
+  --cloud-lavender: #8DAEDB;
+  --vibrant-green: #56AD3A;
+  --forest-green: #2C6020;
+  --cliff-slate: #4D5450;
+
+  /* DarkMode  */
+  --sunset-orange: #D9693B;
+  --sunset-yellow: #E99D43;
+  --deep-cloud-purple: #493F6D;
+  --dark-sky: #1F2338;
+  --vibrant-green: #3E6C31;
+  --cliff-slate: #3C4148;
 }
+
