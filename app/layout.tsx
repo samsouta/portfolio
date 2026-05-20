@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export const metadata: Metadata = {
-  title: " samsouta | Landing Page ",
-  description: " portfolio website where you can chat to learn about the developer",
+  title: "Samsouta | Full-Stack Developer",
+  description:
+    "Full-Stack Developer building AI-powered Telegram and SaaS products.",
+  openGraph: {
+    title: "Samsouta | Full-Stack Developer",
+    description:
+      "Full-Stack Developer building AI-powered Telegram and SaaS products.",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -15,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full" data-theme="light">
-      <body className={`${inter.className} h-full`}>{children}</body>
+    <html lang="en" className="dark scroll-smooth">
+      <body>{children}</body>
     </html>
   );
 }
