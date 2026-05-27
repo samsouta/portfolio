@@ -56,9 +56,9 @@ export function FeaturedProjectsClient({
       <Container>
         <div className="mb-8 flex min-w-0 flex-col gap-6 sm:mb-10 lg:flex-row lg:items-end lg:justify-between">
           <SectionHeading
-            eyebrow="Featured Projects"
-            title="Product-focused builds with real backend thinking."
-            description="Projects are loaded from Supabase and can be filtered by category or searched by stack."
+            eyebrow="Projects"
+            title="Selected work and product builds."
+            description="Real projects focused on clean interfaces, scalable systems, and practical user experience."
           />
         </div>
 

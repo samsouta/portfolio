@@ -8,8 +8,8 @@ export function SkillsSection() {
       <Container>
         <SectionHeading
           eyebrow="Skills"
-          title="A stack built around shipping useful AI and SaaS products."
-          description="Balanced across interface, backend, data, automation, Telegram workflows, and product execution."
+          title="Tools and technologies I use to build modern applications."
+          description="Experience across frontend, backend, databases, infrastructure, automation, and product-focused development."
         />
         <div className="mt-8 grid min-w-0 gap-4 sm:mt-10 sm:grid-cols-2 sm:gap-5 xl:grid-cols-3">
           {skills.map((group) => (

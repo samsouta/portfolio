@@ -8,22 +8,17 @@ export function AboutSection() {
         <div className="grid min-w-0 gap-8 lg:grid-cols-[0.8fr_1.2fr] lg:items-start lg:gap-10">
           <SectionHeading
             eyebrow="About"
-            title="Building useful systems, not just polished screens."
-            description="My work sits between engineering, product thinking, and fast execution."
+            title="Building useful software, not just polished interfaces."
+            description="I enjoy turning ideas into practical products through engineering, product thinking, and execution."
           />
           <div className="surface-card min-w-0 rounded-lg p-5 sm:p-8">
             <div className="space-y-5 text-sm leading-7 text-slate-300 sm:text-base sm:leading-8">
               <p>
-                I focus on building real products that solve practical problems:
-                Telegram bots that help users find information faster, SaaS-style
-                systems with clear usage rules, and automation workflows that
-                reduce manual effort.
+                I build modern applications focused on usability, performance, and real-world value. My work includes web platforms, automation tools, scalable backend systems, and SaaS-style products designed for practical use.
               </p>
+
               <p>
-                I care about the full path from idea to launch. That means
-                understanding the user problem, shaping the product flow, building
-                the backend, designing a clean interface, and improving the system
-                after real usage.
+                I enjoy the full product process from planning and architecture to development, launch, and iteration. I care about creating software that not only looks clean, but also works reliably and solves meaningful problems.
               </p>
             </div>
           </div>

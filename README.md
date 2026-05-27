@@ -10,11 +10,13 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Add your Supabase credentials to `.env.local`:
+Add your Supabase and Telegram contact form credentials to `.env.local`:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=
 NEXT_PUBLIC_SUPABASE_ANON_KEY=
+TELEGRAM_BOT_TOKEN=
+TELEGRAM_CHAT_ID=
 ```
 
 ## Supabase
