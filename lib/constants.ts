@@ -4,7 +4,7 @@ export const personalInfo = {
   email: "samxsouta@gmail.com",
   telegram: "https://t.me/samsouta",
   github: "https://github.com/samsouta",
-  linkedin: "https://linkedin.com/in/samsouta",
+  linkedin: "https://www.linkedin.com/in/sam-souta-a28384321/",
 };
 
 export const skills = [
