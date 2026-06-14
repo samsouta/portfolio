@@ -1,7 +1,7 @@
 export const personalInfo = {
   name: "Samsouta",
   headline: "Building modern web applications, scalable systems, and digital products.",
-  email: "samxsouta@gmail.com",
+  email: "samsouta.dev@gmail.com",
   telegram: "https://t.me/samsouta",
   github: "https://github.com/samsouta",
   linkedin: "https://www.linkedin.com/in/sam-souta-a28384321/",
