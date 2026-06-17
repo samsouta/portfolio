@@ -10,26 +10,66 @@ export const personalInfo = {
 export const skills = [
   {
     title: "Frontend",
-    items: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Responsive UI" ,"Dark" , "Flutter" ,"React Native"],
+    items: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Responsive Design",
+      "Flutter",
+      "React Native",
+    ],
   },
   {
     title: "Backend",
-    items: ["Node.js", "API design" ,"PHP" , "Laravel" , "Python" , "C++"],
+    items: [
+      "Node.js",
+      "Laravel",
+      "PHP",
+      "Python",
+      "REST API",
+      "BullMQ",
+      "C++",
+    ],
   },
   {
-    title: "Database",
-    items: ["PostgreSQL", "Supabase", "MySQL", "Redis", "Query optimization"],
+    title: "Database & Search",
+    items: [
+      "PostgreSQL",
+      "MySQL",
+      "Supabase",
+      "Redis",
+      "OpenSearch",
+      "Query Optimization",
+    ],
   },
   {
-    title: "AI Tools",
-    items: ["LLM workflows", "Prompt systems", "Automation", "AI-assisted content"],
+    title: "Automation & AI Tools",
+    items: [
+      "Prompt Engineering",
+      "Workflow Automation",
+      "Claude",
+      "ChatGPT",
+      "AI-Assisted Development",
+    ],
   },
   {
     title: "UI/UX Design",
-    items: ["Figma" , "Canva"],
+    items: [
+      "Figma",
+      "Canva",
+    ],
   },
   {
     title: "Cloud & DevOps",
-    items: ["AWS", "Docker", "CI/CD", "Kubernetes" , "Git" , "Linux"],
+    items: [
+      "Linux",
+      "Bash",
+      "Docker",
+      "Nginx",
+      "Git",
+      "GitHub Actions",
+      "AWS",
+    ],
   },
 ];
