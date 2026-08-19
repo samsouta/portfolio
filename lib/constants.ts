@@ -48,8 +48,6 @@ export const skills = [
     items: [
       "Prompt Engineering",
       "Workflow Automation",
-      "Claude",
-      "ChatGPT",
       "AI-Assisted Development",
     ],
   },
